@@ -6,7 +6,7 @@
 }
 .card {
   position: absolute;
-  top: 80%;
+  top: 82%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
@@ -38,3 +38,4 @@
   transition: all 0.3s ease-in-out;
   background-color: #f8f9fa;
 }
+

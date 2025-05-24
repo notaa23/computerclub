@@ -1,0 +1,40 @@
+.logo .navbar-brand img {
+  width: auto;
+  height: auto;
+  max-height: 50px;
+  max-width: 100%;
+}
+.card {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 20%;
+}
+
+.card-body a {
+  transition: color 0.3s ease-in-out;
+}
+
+.card-body a:hover {
+  color: #007bff;
+}
+
+.card-body a:hover i {
+  color: #007bff;
+}
+
+.card-body .col-sm {
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.card-body .col-sm:hover {
+  transform: translate(0, -10px);
+  transition: all 0.3s ease-in-out;
+  background-color: #f8f9fa;
+}
